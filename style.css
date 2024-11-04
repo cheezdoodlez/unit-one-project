@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box
+    
+}
+
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#display{ /*might need to add flex and justify content to align text inside DONE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    padding: 25px;
+    background-color: rgb(88, 53, 53);
+    font-size: 60px; 
+    border-radius: 25ch; /* played with other border radiuses from shortcut*/ 
+}
+
+ #buttonOne{
+    border-radius: 50%;
+    border: none;
+    padding:0px; 
+    width: 192px;
+    height:192px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color:gray;
+    margin-top: 20px;
+}
+
+#buttonTwo{
+    margin-top: 30px;
+    width: 100px;
+    background-color: rgb(151, 128, 128);
+}
+
+/* Format cookie image DONE*
